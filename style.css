@@ -311,7 +311,7 @@ h3 {
 /* Cat content*/
 .catcontainer {
     display: grid;
-    grid-template-columns: repeat(4fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem 2rem;
 }
 
@@ -686,6 +686,16 @@ h3 {
   .intcontainer {
     grid-template-columns: 1fr;
   }
+
+  @media (max-width: 600px) {
+  .catcontainer {
+    grid-template-columns: 1fr; /* solo una columna */
+    gap: 1.5rem 0;
+  }
+  
+}
+
+
 }
 
 /* Media */
