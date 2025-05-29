@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petfly App</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="#"><img src="./img/logo1.png" alt=""></a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./img/logo1.png" alt=""></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#equipo">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#servicioss">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.figma.com/proto/dF9bR1yuqmGMpUGhlSGHSA/Petfly-App?node-id=172-2&p=f&t=Ae4tJEtZanrNpYLz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A10&show-proto-sidebar=1" class="login-button"><img src="./img/icons8-user-30.png" alt="https://www.figma.com/proto/dF9bR1yuqmGMpUGhlSGHSA/Petfly-App?node-id=172-2&p=f&t=Ae4tJEtZanrNpYLz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A10&show-proto-sidebar=1"></a>
+      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Hero Section -->
+   <section class="hero">
+        <div class="row flex container">
+            <div class="hero-content">
+              <h1>Petfly App</h1>
+                <p>Nos preocupamos por el bienestar de tu canino, por eso en PetFly encontrarás información útil para su cuidado, recomendaciones personalizadas y muchas sorpresas más pensadas para ti y tu peludo.</p>
+                <a href="https://www.figma.com/proto/dF9bR1yuqmGMpUGhlSGHSA/Petfly-App?node-id=172-2&p=f&t=Ae4tJEtZanrNpYLz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A10&show-proto-sidebar=1" class="page-btn row">
+                    Más información
+                </a>
+            </div>
+            <div class="hero-img row"><img src="./img/perrito1.png" alt=""></div>
+        </div>
+     </section>
+   <!-- End Hero Section -->
+
+<!-- Section Category -->
+<section class="section category" id="servicioss">
+  <div class="catcontainer container grid">
+    
+    <div class="catdata">
+      <img src="./img/tienda.png" class="catim" alt="">
+      <h3 class="cattile">Tienda</h3>
+    </div>
+
+    <div class="catdata">
+      <img src="./img/comunidadess.png" class="catim" alt="">
+      <h3 class="cattile">Comunidades</h3>
+    </div>
+
+    <div class="catdata">
+      <img src="./img/petgoldd.png" class="catim" alt="">
+      <h3 class="cattile">PetGold</h3>
+    </div>
+
+    <div class="catdata">
+      <img src="./img/bot.png" class="catim" alt="">
+      <h3 class="cattile">Chatbot</h3>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- About -->
+  <section class="about row flex container" id="about">
+    <div class="about-content">
+      <h1>¡Únete al Club PetGold!</h1>
+      <p>Conviértete en un usuario PetGold y accede a beneficios exclusivos como descuentos en compras mayores a $105.000, un chatbot inteligente que te brinda recetas personalizadas y resuelve tus dudas, 
+        y envíos totalmente gratis. Vive la experiencia premium que tu mascota se merece. </p>
+      <a href="https://www.figma.com/proto/dF9bR1yuqmGMpUGhlSGHSA/Petfly-App?node-id=172-2&p=f&t=Ae4tJEtZanrNpYLz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A10&show-proto-sidebar=1" class="page-btn row">
+        ¡Adquirir!
+                </a>
+ 
+    </div>
+    <div class="about-img row"><img src="./img/petgold.png"></div>
+  </section>
+  <!-- End About -->
+
+  <!-- Porductos -->
+<section class="customer" id="productos">
+  <div class="container">
+    <div class="customer-cards">
+      <div class="c-card">
+        <div class="c-img">
+          <img src="./img/arrmadura.png" alt="">
+        </div>
+        <div class="c-content">
+          <h3>Armadura Digestiva</h3>
+          <p>Con el poder natural de las algas kelp como escudo prebiotico y la yucca schidigera para mejorar el olor y firmeza de sus heces, 
+            este snack funcional refuerza el sistema digestivo como un verdadero escudo interno.</p>
+        </div>
+      </div>
+      <div class="c-card">
+        <div class="c-img">
+          <img src="./img/patas.png" alt="">
+        </div>
+        <div class="c-content">
+          <h3>Patas De Titanio</h3>
+          <p>Con condroitina y ácido hialurónico, este snack funcional fortalece huesos y articulaciones para que tu perro se mueva como un verdadero titán. 
+            El superalimento que impulsa cada salto, carrera y travesura con fuerza de acero.</p>
+        </div>
+      </div>
+      <div class="c-card">
+        <div class="c-img">
+          <img src="./img/superalimento.png" alt="">
+        </div>
+        <div class="c-content">
+          <h3>Superalimento</h3>
+          <p>El Superalimento Petfly aporta proteína de alta digestibilidad, vitaminas, prebióticos naturales y antioxidantes esenciales para fortalecer su sistema inmune, digestivo y muscular.
+            Cada bocado es un golpe de bienestar.</p>
+          
+        </div>
+      </div>
+    </div>  
+  </div>
+</section>
+<!-- End customer -->
+
+<!-- App -->
+  <!-- CORREGIDO: Agregado contenedor -->
+  <div class="container">
+    <div class="flex row">
+      <!-- Imagen al lado izquierdo -->
+      <div class="app-download-img row">
+        <img src="./img/app.png" alt="">
+        <a href="#" class="play row">
+          <svg width="55" height="52" viewBox="0">
+            <path d="M39.2031 25.2192C39.1707"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Texto al lado derecho -->
+      <div class="service-content row">
+        <div>
+          <h1>Descarga Petfly App</h1>
+          <p>
+            Descubre una tienda con snacks y accesorios, comunidades donde otros dueños comparten sus experiencias, y la suscripción PetGold con recetas personalizadas, envíos gratis y descuentos.
+        ¡Todo lo que tu peludo necesita, en un solo lugar!
+          </p>
+          <a href="https://www.figma.com/proto/dF9bR1yuqmGMpUGhlSGHSA/Petfly-App?node-id=172-2&p=f&t=Ae4tJEtZanrNpYLz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A10&show-proto-sidebar=1" class="page-btn row">
+                    Obtener
+                </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="customer" id="testimonios">
+  <div class="customer-cards">
+    
+    <div class="c-card">
+      <div class="c-img">
+        <img src="./img/doggy1.png" alt="Usuario 1">
+      </div>
+      <div class="c-content">
+        <h3>Gianna Gentile</h3>
+        <p>"Petfly ha cambiado completamente cómo cuido a mi mascota. Es fácil de usar y tiene todo lo que necesito."</p>
+        <div class="rate">
+          ⭐⭐⭐⭐⭐
+        </div>
+      </div>
+    </div>
+
+    <div class="c-card">
+      <div class="c-img">
+        <img src="./img/doggy2.png" alt="Usuario 2">
+      </div>
+      <div class="c-content">
+        <h3>Juliana Ferrer</h3>
+        <p>"Desde que uso Petfly, encontrar productos y servicios para mi perro es mucho más rápido. ¡Excelente plataforma!"</p>
+        <div class="rate">
+          ⭐⭐⭐⭐⭐
+        </div>
+      </div>
+    </div>
+
+    <div class="c-card">
+      <div class="c-img">
+        <img src="./img/doggy3.png" alt="Usuario 3">
+      </div>
+      <div class="c-content">
+        <h3>Rosa Madera</h3>
+        <p>"Me encanta el diseño y la facilidad para navegar. Además, he encontrado promociones que no veía en otras apps."</p>
+        <div class="rate">
+          ⭐⭐⭐⭐⭐
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Section Integrantes -->
+<section class="section integrantes" id="equipo">
+  <h1 class="section-title">Equipo De Trabajo</h1>
+  <div class="intcontainer container grid">
+
+    <div class="intcard">
+      <img src="./img/alfonso.png" class="intimg" alt="Integrante 1">
+      <h3 class="intnombre">Alfonso Serje</h3>
+      <p class="intmensaje">CEO-FUNDER</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/macaro.png" class="intimg" alt="Integrante 2">
+      <h3 class="intnombre">Maria Vargas</h3>
+      <p class="intmensaje">CTO</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/wainer.png" class="intimg" alt="Integrante 3">
+      <h3 class="intnombre">Wainer Vega</h3>
+      <p class="intmensaje">Recursos Humanos</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/wilson.png" class="intimg" alt="Integrante 4">
+      <h3 class="intnombre">Wilson Certain</h3>
+      <p class="intmensaje">CEO-FUNDER</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/juan.png" class="intimg" alt="Integrante 5">
+      <h3 class="intnombre">Juan Acosta</h3>
+      <p class="intmensaje">DEV</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/ronald.png" class="intimg" alt="Integrante 6">
+      <h3 class="intnombre">Ronald Monterroza</h3>
+      <p class="intmensaje">DEV</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/marlene.png" class="intimg" alt="Integrante 7">
+      <h3 class="intnombre">Marlene Guevara</h3>
+      <p class="intmensaje">Marketing y Alianzas Estratégicas</p>
+    </div>
+
+    <div class="intcard">
+      <img src="./img/luisa.png" class="intimg" alt="Integrante 8">
+      <h3 class="intnombre">Luisa Mancilla</h3>
+      <p class="intmensaje">Marketing y Alianzas Estratégicas</p>
+    </div>
+
+  </div>
+</section>
+
+
+</section>
+<footer class="footer">
+  <div class="footer-container container">
+
+    <!-- Columna 1: Contáctanos -->
+    <div class="footer-column">
+      <h4 class="footer-title">Contáctanos</h4>
+      <p class="footer-contact">Cel: +57 3015299745</p>
+      <p class="footer-contact">Cra. 52 #72 114, Nte. Centro Histórico, Barranquilla, Atlántico.</p>
+    </div>
+
+    <!-- Columna 2: Servicios -->
+    <div class="footer-column">
+      <h4 class="footer-title">Servicios</h4>
+      <ul class="footer-links">
+        <li><a href="#productos" class="footer-link">Productos</a></li>
+        <li><a href="#equipo" class="footer-link">Sobre Nosotros</a></li>
+        <li><a href="#servicioss" class="footer-link">Servicios</a></li>
+        <li><a href="#productos" class="footer-link">Productos</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 3: Mantente en contacto -->
+    <div class="footer-column">
+      <h4 class="footer-title">Mantente en contacto</h4>
+      <form class="footer-form" onsubmit="return false;">
+        <input type="email" placeholder="Tu correo electrónico" class="footer-input" />
+        <button type="submit" class="footer-btn">Suscribirse</button>
+      </form>
+      <a href="https://www.instagram.com/petflypro" target="_blank" class="footer-instagram" aria-label="Instagram">
+        <!-- Ícono Instagram SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 24 24">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm4.25 3.75a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 1.5a3 3 0 100 6 3 3 0 000-6zm4.5-.75a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-text">&copy; 2025. Petfly.</p>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JSS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous">
+  </script>
+</body>
+
+
+
+</html>
